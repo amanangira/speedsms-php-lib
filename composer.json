@@ -1,0 +1,17 @@
+{
+    "name": "amanangira/speedsms-php-lib",
+    "description": "A wrapper around speedsms.vn provided php library for convenient inclusion via composer.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Aman Angira",
+            "email": "aman.angira@outlook.com"
+        }
+    ],
+	"autoload":{
+		"psr-4":{
+			"AmanAngira\\SpeedSmsPhpLib\\":"src"
+		}
+	},
+    "require": {}
+}
